@@ -1,0 +1,29 @@
+/* global styling */
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: linear-gradient(-45deg, rgb(82, 0, 82), rgb(0, 0, 80));
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* start app container styling */
+.app-container {
+  font-family: monospace;
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  background-color: white;
+  border-radius: 20px;
+  border : none;
+  height: 400px;
+  margin-top: -50px;
+  padding: 40px 30px 40px 30px;
+}
+/* end app container styling */
